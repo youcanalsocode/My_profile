@@ -82,7 +82,22 @@ h3{
     height:40px;
     border-radius: 100%;  
 }
-
+/* -------------media--------- */
+.media{
+    display: flex;
+}
+.media-head{
+    margin: 0;   
+}
+.media-content{
+    margin-left: 1rem;
+}
+.media p{
+    margin: 0;
+}
+.media .icon{
+    margin-top: 25px;
+}
 
 
 
