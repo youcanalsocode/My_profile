@@ -31,12 +31,14 @@ h3{
 /* ---content------ */
 .content{
     text-align: center;
+    margin: 1rem;
 }
 .content-head{
-    margin-top: 0;
+    margin-top: 2rem;
     margin-bottom: 0;
 }
 .content-desc{
+    margin-top: 0;
     font-weight: 500;
 }
 .content-special{
@@ -51,6 +53,11 @@ h3{
 .content-special::after
 {
     content: close-quote;
+}
+@media screen  and (min-width:1024px){
+    .content{
+        text-align: left;
+    }
 }
 /* ----------block-------- */
 .block{
@@ -209,5 +216,10 @@ h3{
 
     }
     
+}
+/* ------experience-------- */
+.exp_head{
+    text-align: center;
+    margin:0;
 }
 
