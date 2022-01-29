@@ -28,6 +28,30 @@ h2{
 h3{
     font-size:4rem;
 }
+/* ---content------ */
+.content{
+    text-align: center;
+}
+.content-head{
+    margin-bottom: 0;
+}
+.content-desc{
+    font-weight: 500;;
+}
+.content-special{
+    margin-top: 0;
+    font-style: italic;
+    font-weight: 500;   
+}
+.content-special::before
+{
+    content: open-quote;
+}
+.content-special::after
+{
+    content: close-quote;
+}
+
 
 
 
