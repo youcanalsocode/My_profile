@@ -51,7 +51,19 @@ h3{
 {
     content: close-quote;
 }
-
+/* ----------block-------- */
+.block{
+    --padding-bottom:4rem;
+    padding:var(--padding-bottom) 4rem;
+    
+}
+.block-purple{
+    background: var(--color--bodybg);
+}
+.block-sqwed{
+    padding-bottom:calc(var(--padding-bottom) + 4rem) ;
+    clip-path: polygon(0% 0%,100% 0%,100% 100%,0% 80%);
+}
 
 
 
