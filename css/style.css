@@ -1,6 +1,6 @@
 :root{
     --color--Headbg:#800080;
-    --color--bodybg:#eeb8ee;
+    --color--bodybg:#f7d7f7;
     --color--heaading:#530553;
     --color--body:#524007;
     
@@ -75,7 +75,7 @@ h3{
     clip-path: polygon(0% 0%,100% 0%,100% 100%,0% 90%);
 }
 .container{
-    max-width:1140px;
+    max-width:1460px;
     margin: auto;
 }
 /* ------------list--------- */
@@ -247,7 +247,7 @@ h3{
 }
 /* ----------------footer--------- */
 .foot{
-    background: var(--color--Headbg);
+    background: var(--color--heaading)
 }
 .foot_head{
     color: #fff;
