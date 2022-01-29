@@ -1,0 +1,33 @@
+:root{
+    --color--Headbg:#800080;
+    --color--bodybg:#eeb8ee;
+    --color--heaading:#530553;
+    --color--body:#524007;
+    
+}
+/* ---------topography------------- */
+html{
+    font-size: 62.5%;
+    font-family: 'EB Garamond', serif;;
+    
+}
+body{
+    color: var(--color--body);
+    font-size: 2rem;   
+   }
+ h1,h2,h3{
+       
+    color:var(--color--heaading) ;
+}
+h1{
+    font-size: 7rem;
+}
+h2{
+    font-size: 5rem;
+}
+h3{
+    font-size:4rem;
+}
+
+
+
