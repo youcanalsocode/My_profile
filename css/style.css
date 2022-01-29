@@ -76,6 +76,12 @@ h3{
 .list_item{
     padding-right: 2rem;
 }
+/* ------------icon- */
+.icon{
+    width: 40px;
+    height:40px;
+    border-radius: 100%;  
+}
 
 
 
