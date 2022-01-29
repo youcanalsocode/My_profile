@@ -104,6 +104,7 @@ h3{
 /* -------------media--------- */
 .media{
     display: flex;
+    margin-left: 20rem;
 }
 .media-head{
     margin: 0;   
@@ -115,8 +116,9 @@ h3{
     margin: 0;
 }
 .media .icon{
-    margin-top: 25px;
+    margin-top: 13px;
 }
+
 /* ---grid------------------- */
 .grid{
     display: grid;
@@ -134,14 +136,17 @@ h3{
     }
 }
 /* ------------collapsible--------- */
-.collapsible .collapsible--content{
-    height: 0;
+.collapsible--content{
+    max-height: 0;
     overflow: hidden;
 }
 .collapsible--expanded .collapsible--content{
- height:100%;
- 
-
+ max-height:100%;
+}
+@media screen and (min-width:1024px) {
+.collapsible--content{
+        max-height: 100%;
+    }
 }
 /* ---------------Navbar---------------- */
 .nav-bar{
@@ -240,4 +245,24 @@ h3{
 .project h2{
     margin:0;
 }
+/* ----------------footer--------- */
+.foot{
+    background: var(--color--Headbg);
+}
+.foot_head{
+    color: #fff;
+    font-size: 2.5rem;
+    font-weight: 400;
+}
+.foot_content{
+    color: #fff;
+    font-size: 1.5rem;
+    font-style: italic;
+    opacity: 0.7;
+}
 
+a{
+    text-decoration: none;
+    color: white;
+   
+}
