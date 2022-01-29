@@ -24,6 +24,7 @@ h1{
 }
 h2{
     font-size: 5rem;
+    text-align: center;
 }
 h3{
     font-size:4rem;
@@ -63,7 +64,7 @@ h3{
 .block{
     --padding-bottom:4rem;
     padding:2rem 2rem;
-    margin: 1rem 1rem;
+ 
     
 }
 .block-purple{
@@ -71,7 +72,7 @@ h3{
 }
 .block-sqwed{
     padding-bottom:calc(var(--padding-bottom) + 4rem) ;
-    clip-path: polygon(0% 0%,100% 0%,100% 100%,0% 80%);
+    clip-path: polygon(0% 0%,100% 0%,100% 100%,0% 90%);
 }
 .container{
     max-width:1140px;
@@ -119,6 +120,7 @@ h3{
 /* ---grid------------------- */
 .grid{
     display: grid;
+    border-right: 1px dotted #f7ebeb;
 }
 
 @media screen and (min-width:768px) {
@@ -190,7 +192,7 @@ h3{
 .intro_img{
     justify-content: right;
    width: 100%;
-   padding:0  0 20rem 0;  
+   padding:0  0 5rem 0;  
 }
 .intro_special{
     font-weight: 300;
@@ -221,5 +223,17 @@ h3{
 .exp_head{
     text-align: center;
     margin:0;
+}
+/* ------------------Skill------ */
+.skill-head{
+    margin: 0;
+}
+.skill-title{
+    margin: 0;
+    text-align: center;
+}
+.listitem{
+    margin-bottom: 1.5rem;
+    text-align: center;
 }
 
