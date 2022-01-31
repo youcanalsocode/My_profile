@@ -1,0 +1,271 @@
+:root{
+    --color--Headbg:#800080;
+    --color--bodybg:#f7d7f7;
+    --color--heaading:#530553;
+    --color--body:#524007;
+    
+}
+/* ---------topography------------- */
+html{
+    font-size: 62.5%;
+    font-family: 'EB Garamond', serif;;
+    
+}
+body{
+    color: var(--color--body);
+    font-size: 2rem;   
+   }
+ h1,h2,h3{
+       
+    color:var(--color--heaading) ;
+}
+h1{
+    font-size: 7rem;
+}
+h2{
+    font-size: 5rem;
+    text-align: center;
+}
+h3{
+    font-size:4rem;
+}
+/* ---content------ */
+.content{
+    text-align: center;
+    margin: 1rem;
+}
+.content-head{
+    margin-top: 2rem;
+    margin-bottom: 0;
+}
+.content-desc{
+    margin-top: 0;
+    font-weight: 500;
+}
+.content-special{
+    margin-top: 0;
+    font-style: italic;
+    font-weight: 500;   
+}
+.content-special::before
+{
+    content: open-quote;
+}
+.content-special::after
+{
+    content: close-quote;
+}
+@media screen  and (min-width:1024px){
+    .content{
+        text-align: left;
+    }
+}
+/* ----------block-------- */
+.block{
+    --padding-bottom:4rem;
+    padding:2rem 2rem;
+ 
+    
+}
+.block-purple{
+    background: var(--color--bodybg);
+}
+.block-sqwed{
+    padding-bottom:calc(var(--padding-bottom) + 4rem) ;
+    clip-path: polygon(0% 0%,100% 0%,100% 100%,0% 90%);
+}
+.container{
+    max-width:1460px;
+    margin: auto;
+}
+/* ------------list--------- */
+.list{
+    list-style: none;
+    padding-left: 0;
+
+}
+.list-inline {
+    display: flex;
+}
+.list_item{
+    padding-right: 2rem;
+}
+/* ------------icon- */
+.icon{
+    width: 40px;
+    height:40px; 
+}
+.icon-profile{
+    border-radius: 100%; 
+}
+.icon-white{
+    fill: #fff;
+}
+/* -------------media--------- */
+.media{
+    display: flex;
+    margin-left: 20rem;
+}
+.media-head{
+    margin: 0;   
+}
+.media-content{
+    margin-left: 1rem;
+}
+.media p{
+    margin: 0;
+}
+.media .icon{
+    margin-top: 13px;
+}
+
+/* ---grid------------------- */
+.grid{
+    display: grid;
+    border-right: 1px dotted #f7ebeb;
+}
+
+@media screen and (min-width:768px) {
+    .grid-1x2{
+        grid-template-columns: repeat(2,1fr);
+    }
+}
+@media screen and (min-width:1024px) {
+    .grid-1x3{
+        grid-template-columns: repeat(3,1fr);
+    }
+}
+/* ------------collapsible--------- */
+.collapsible--content{
+    max-height: 0;
+    overflow: hidden;
+}
+.collapsible--expanded .collapsible--content{
+ max-height:100%;
+}
+@media screen and (min-width:1024px) {
+.collapsible--content{
+        max-height: 100%;
+    }
+}
+/* ---------------Navbar---------------- */
+.nav-bar{
+    display:flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    background: var(--color--heaading);
+    align-items: center;
+}
+.nav-list{
+    width:100%;
+    margin: 0;
+   
+}
+.nav-brand{
+    margin: 1rem;
+}
+.nav-menu{
+    margin: 1rem;
+}
+.list_item{
+    border-bottom:1px solid #612561;
+    text-align: center;
+}
+.list_item > a {
+    text-decoration: none;
+    color: #fff;
+    
+}
+@media screen  and (min-width:1024px){
+    .nav-menu{
+        display: none;
+    }
+    .nav-list{
+        width: auto;
+        display: flex;
+        font-size: 1.6rem;
+        max-height: 100%;
+        opacity: 1;
+    }
+    .list_item{
+        border:none
+    }
+
+}
+/* --------------intro---------- */
+
+.intro_img{
+    justify-content: right;
+   width: 100%;
+  
+   padding:0  0 5rem 0;  
+}
+.intro_special{
+    font-weight: 300;
+}
+.intro-desc{
+    font-size: 2rem;
+    font-style: italic;
+    opacity: 0.7;
+    border-bottom: 0.4px solid #b8a4b8;
+}
+@media screen  and (min-width:1024px){
+    .intro{
+        padding-top: 0;
+    }
+    .intro_img{
+        padding:0;
+    }
+    .intro_content{
+        text-align: left;
+        align-self: center;
+        margin-right: 3rem;
+        margin-left: 0;
+
+    }
+    
+}
+/* ------experience-------- */
+.exp_head{
+    text-align: center;
+    margin:0;
+}
+/* ------------------Skill------ */
+.skill-head{
+    margin: 0;
+}
+.skill-title{
+    margin: 0;
+    text-align: center;
+}
+.listitem{
+    margin-bottom: 1.5rem;
+    text-align: center;
+}
+/* --------------------project------- */
+.project h2{
+    margin:0;
+}
+/* ----------------footer--------- */
+.foot{
+    background: var(--color--heaading)
+}
+.foot_head{
+    color: #fff;
+    font-size: 2.5rem;
+    font-weight: 400;
+}
+.foot_content{
+    color: #fff;
+    font-size: 1.5rem;
+    font-style: italic;
+    opacity: 0.7;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+   
+}
+
+/*# sourceMappingURL=/style.78032849.css.map */
